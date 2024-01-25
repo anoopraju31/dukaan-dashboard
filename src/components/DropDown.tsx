@@ -1,5 +1,6 @@
 import { FC, useState } from 'react'
 import OutlinedButton from './OutlinedButton'
+import Sort from './svgs/Sort'
 
 const DropDown: FC = () => {
 	const [openMenu, setOpenMenu] = useState(false)
@@ -9,7 +10,7 @@ const DropDown: FC = () => {
 		<div className='relative'>
 			<OutlinedButton handleClick={toggleMenu}>
 				<p className='text-black-30 font-inter'> Sort </p>
-				<img src='/sort.svg' alt='sort' className='w-4 h-4' />
+				<Sort />
 			</OutlinedButton>
 
 			{openMenu ? (
