@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react'
 
 type OutlinedButtonType = {
 	children: ReactNode
-	handleClick: () => null
+	handleClick: () => void
 }
 
 const OutlinedButton: FC<OutlinedButtonType> = (props) => {
