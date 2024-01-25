@@ -4,7 +4,7 @@ import DashboardTransactions from './DashboardTransactions'
 
 const Dashboard: FC = () => {
 	return (
-		<main className='w-full p-3 md:p-8 flex flex-col gap-8'>
+		<main className='w-full p-3 smd:p-8 flex flex-col gap-8'>
 			<DashboardHeader />
 
 			<DashboardTransactions />

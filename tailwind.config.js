@@ -23,6 +23,9 @@ export default {
 			fontFamily: {
 				inter: 'var(--inter-font)',
 			},
+			screens: {
+				smd: '700px',
+			},
 		},
 	},
 	plugins: [],
