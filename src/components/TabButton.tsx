@@ -4,7 +4,7 @@ type TabButtonType = {
 	title: string
 	quantity: number
 	isActive?: boolean
-	handleClick?: () => null
+	handleClick?: () => void
 }
 
 const TabButton: FC<TabButtonType> = (props) => {
