@@ -1,4 +1,5 @@
 import { navItems } from '../constants'
+import NavCredit from './NavCredit'
 import NavItem from './NavItem'
 import NavbarStoreProfile from './NavbarStoreProfile'
 
@@ -12,6 +13,8 @@ const Navbar = () => {
 					<NavItem key={item.id} {...item} />
 				))}
 			</ul>
+
+			<NavCredit />
 		</nav>
 	)
 }
