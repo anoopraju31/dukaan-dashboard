@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import Header from './components/svgs/Header'
 import Navbar from './components/Navbar'
+import Dashboard from './components/Dashboard'
 
 const App: FC = () => {
 	return (
@@ -10,6 +11,7 @@ const App: FC = () => {
 			</div>
 			<div className='flex-1 relative'>
 				<Header />
+				<Dashboard />
 			</div>
 		</div>
 	)
