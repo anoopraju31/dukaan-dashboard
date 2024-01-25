@@ -1,4 +1,6 @@
-const Delivery = () => {
+import { FC } from 'react'
+
+const Delivery: FC = () => {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'

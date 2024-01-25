@@ -1,4 +1,6 @@
-const Discounts = () => {
+import { FC } from 'react'
+
+const Discounts: FC = () => {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
