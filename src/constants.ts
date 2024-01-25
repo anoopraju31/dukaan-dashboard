@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { ComponentType } from 'react'
 import {
 	Analytics,
 	Appearance,
@@ -13,9 +13,9 @@ import {
 	Products,
 } from './components/svgs'
 
-type NavItemType = {
+export type NavItemType = {
 	id: string
-	Icon: FC
+	Icon: ComponentType
 	title: string
 	isCurrentPage?: boolean
 }
