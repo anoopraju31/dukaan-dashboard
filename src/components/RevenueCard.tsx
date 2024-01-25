@@ -1,8 +1,9 @@
 import { FC } from 'react'
 import { PiQuestion } from 'react-icons/pi'
 import { HiOutlineChevronRight } from 'react-icons/hi'
+import withBoxShadow from './withBoxShadow'
 
-type RevenueCardType = {
+export interface RevenueCardType {
 	title: string
 	amount: string
 	orderCount?: number
@@ -36,5 +37,6 @@ const RevenueCard: FC<RevenueCardType> = (props) => {
 		</section>
 	)
 }
+export const RevenueCardWithBoxShadow = withBoxShadow(RevenueCard)
 
 export default RevenueCard
