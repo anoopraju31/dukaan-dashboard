@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import TableRow from './TableRow'
 
 const Table: FC = () => {
 	return (
@@ -22,7 +23,14 @@ const Table: FC = () => {
 					</th>
 				</tr>
 			</thead>
-			<tbody></tbody>
+			<tbody>
+				<TableRow />
+				<TableRow />
+				<TableRow />
+				<TableRow />
+				<TableRow />
+				<TableRow />
+			</tbody>
 		</table>
 	)
 }
