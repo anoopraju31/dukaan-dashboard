@@ -4,6 +4,7 @@ import SearchInput from './SearchInput'
 import DropDown from './DropDown'
 import OutlinedButton from './OutlinedButton'
 import Table from './Table'
+import Download from './svgs/Download'
 
 const DashboardTransactions: FC = () => {
 	return (
@@ -34,7 +35,7 @@ const DashboardTransactions: FC = () => {
 					<div className='flex items-center gap-4'>
 						<DropDown />
 						<OutlinedButton handleClick={() => {}}>
-							<img className='py-0.5' src='/download.svg' alt='download' />
+							<Download />
 						</OutlinedButton>
 					</div>
 				</div>
