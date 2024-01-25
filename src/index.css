@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: 'GalanoGrotesque';
+	src: url('/GalanoGrotesqueDEMO-Bold.ttf') format('ttf');
+}
+
 :root {
 	--inter-font: 'Inter', sans-serif;
 }
